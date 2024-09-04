@@ -20,8 +20,11 @@ function Home() {
   return (
     <div className="flex flex-col items-center justify-between min-h-screen bg-gray-100">
       {/* expenses */}
+      <div className='caret-white'>Dashboard</div>
+      {/* logic for profile and good morining */}
+      <div className='caret-white'>Good Morining Jane Cooper</div>
       <div className="flex w-full space-x-4 p-4">
-        <div className="bg-white p-6 rounded-lg shadow-md flex-1">
+        <div className="bg-blue-200 p-6 rounded-lg shadow-md flex-1">
           Total revenue
           <span className="mr-2">$</span>
           <input
@@ -33,7 +36,7 @@ function Home() {
             className="w-full p-2 border border-gray-300 rounded-lg"
           />
         </div>
-        <div className="bg-white p-6 rounded-lg shadow-md flex-1">
+        <div className="bg-purple-200 p-6 rounded-lg shadow-md flex-1">
           Total expense
           <span className="mr-2">$</span>
           <input
